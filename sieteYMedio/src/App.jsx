@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import Contenido from './componentes/Contenido'
+import Valores from './subPag/Valores'
+import ComoJugar from './subPag/comoJugar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>hola mundo</h1>
+    <ComoJugar/>
+
     </>
   )
 }
