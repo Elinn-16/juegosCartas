@@ -35,13 +35,13 @@ function Navbar() {
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="./">Juego</a>
+                                    <a class="nav-link active" aria-current="page" href="/">Juego</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../subPag/comoJugar.jsx">Como Jugar</a>
+                                    <a class="nav-link" href="/comoJugar">Como Jugar</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../subPag/Valores.jsx">Valores</a>
+                                    <a class="nav-link" href="/Valores">Valores</a>
                                 </li>
                             </ul>
                         </div>

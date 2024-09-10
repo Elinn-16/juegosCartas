@@ -1,14 +1,13 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
 import './App.css'
-import Contenido from './componentes/Contenido'
-import Valores from './subPag/Valores'
-import ComoJugar from './subPag/comoJugar'
+import Nav from './componentes/Rutas'
+
 
 function App() {
   return (
     <>
-    <ComoJugar/>
-
+    <Nav/>
     </>
   )
 }

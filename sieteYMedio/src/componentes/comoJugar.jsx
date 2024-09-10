@@ -1,4 +1,4 @@
-import Navbar from '../componentes/Navbar'
+import Navbar from './Navbar'
 import './comoJugar.css'
 function Instrucciones() {
     return (
